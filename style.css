@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color:black
+}
+ul{
+    list-style: none;
+}
+
+header{
+    min-height: 75px;
+    background-color: rgb(24, 23, 23);
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    color:white;
+}
+
+.logo{
+    font-size: 25px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logophoto{
+    width: 80px;
+    margin-left: 30px;
+    border-radius: 80px;
+    
+}
+.photo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.logophoto1{
+    
+    width: 85px;
+    
+}
+nav{
+    width: 20%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    height: 100%;
+    font-size: 20px;
+}
+body{
+    background-image: url(fon1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 20px;
+}
+.otzivi{
+    height: 1800px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.otzivi>img{
+    width: 300px;
+    border-radius: 30px;
+}
+.korm{
+    display: flex;
+    width: 60%;
+    align-items: center; 
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.slova{
+    height: 1600px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buykorm{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    
+    
+
+}
